@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 0;
+	font-family: lora, new times roman;
+}
+.mainHeader {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 24px;
+	background-color: #A68A99;
+	color: white;
+	height: 50px;
+}
+
+.mainNavigation li {
+	display: inline-block;
+	align-items: right;
+	padding: 16px;
+}
+
+.mainNavItem {
+	padding: 0 16px;
+	color: #fff;
+}
+.mainNavItem a {
+	color: #fff;
+	text-decoration: none;
+}
+.mainNavItem a:hover {
+	outline: 1px dotted #fff;
+  color:#F2A950;
+}
+
+
+.siteLogo {
+	display: flex;
+	align-items: center;
+	color: #41481F;
+	font-weight: bold;
+	font-size: 20px;
+  padding-left: 25px;
+}
+
+/* main content */
+
+.mainContent {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  position: relative;
+}
+
+.hero {
+  opacity: 0.3;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  display: block;
+	height: auto;
+	margin: 0 auto;
+}
+
+.aboutMeContent {
+  position: absolute;
+  top: 25%;
+	display: flex;
+	flex-direction: column;
+	margin: 80px 0;
+	width: 30%;
+  text-align: center;
+	padding: 24px;
+	border: 1px dotted teal;
+	/* box shadow values - offset-x | offset-y | blur-radius | spread-radius | rgb color and transparency */
+	box-shadow: -2px 2px 8px 2px rgba(188, 188, 188, .7);
+}
+
+.aboutMeContent h1 {
+	margin-bottom: 4px;
+}
+
+
+/* My Skills */
+
+.headSkill {
+	padding-top: 1%;
+	color: #F2A950;
+	font-family: Lora;
+	Font-weight: bold;
+  text-align: center;
+}
+
+.skills {
+	padding-top: 2px;
+	font-family: Lora;
+	text-decoration-line: underline;
+}
+
+.heading {
+  text-align: center;
+  padding: 15px 5px;
+  font-size: 30px;
+}
+
+.flexContainer {
+  display: flex;
+  padding: 60px 30px;
+}
+.flexContainer div {
+  width: 33%;
+  padding: 25px;
+}
+
+/* My Work */
+
+.myWorksec {
+	padding-left: 5%;
+	padding-top: 5%;
+	color: #F2A950;
+	font-family: Lora;
+	Font-weight: bold;
+	text-align: center;
+
+}
+
+.grid-container {
+	display: grid;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	grid-template-columns: auto auto;
+	padding: 80px;
+  }
+  
+  .grid-item {
+	padding: 20px;
+	font-size: 30px;
+	text-align: left;
+  }
+
+  .bottomLink {
+	text-align: center;
+	padding-bottom: 5%;
+
+  }
+  .proj {
+	color: #4F5902;
+  }
+  .proj a:hover {
+	outline: 1px dotted #F2A950;
+	text-decoration: none;
+	color: #4F5902;
+}
+
+
+
+/* Arrow */
+
+.arrow {
+  text-align: right;
+  margin: 2% 8%;
+  color: #F2A950;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Footer */
+
+
+.footerNavigation {
+	display: flex;
+	align-items: center;
+	background-color: #A68A99;
+	height: 50px;
+	color: white;
+
+}
+.footerItem li {
+	display: inline-block;
+	padding: 0 16px;
+
+}
+
+.footLink {
+	padding: 0 16px;
+}
+.footLink a {
+	color: #fff;
+}
+.footLink a:hover {
+	outline: 1px dotted #fff;
+	text-decoration: none;
+  color:#F2A950;
+}
+.footerCopy { 
+  font-size: 10px;
+}
+
